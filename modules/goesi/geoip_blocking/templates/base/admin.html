@@ -1,0 +1,59 @@
+
+<div style="font-size:150%; text-align:center; font-weight:bold;">Options</div>
+<center>
+	<span style="color:red;font-size:120% text-align:center; font-weight:bold;">__errors__</span>
+	<br>
+	<span style="color:red;font-size:120% text-align:center; font-weight:bold;">Dont block your own country in LIVE MODE. Allow it first. ;)</span>
+</center>
+<br>
+<center><a href="__test_url__" title="Click here to test your generated config.">Open the test directory to see if GeoIP works.</a></center>
+<br>
+<hr>
+<form action="#" method="POST">
+<table style="width:90%;text-align:center;border:1px;">
+	<tr>
+		<td>HTACCESS Use:</td>
+		<td>
+			<select name="use">
+				<option value ="test">Test Mode</option>	
+				<option value="yes">Live</option>
+				<option value ="no">No</option>
+			</select>
+		</td>
+	</tr>
+	<tr>	
+		<td>Modus:</td>
+		<td>
+			<select name="mode">
+				<option value="block" __block_on__ >Block</option>
+				<option value ="allow" __allow_on__ >Allow</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Server Name:</td>
+		<td><b>__server-name__</b></td>
+	</tr>
+	<tr>
+		<td>Boonex Username:</td>
+		<td><input name="websiteuser" type="text" size="30" maxlength="30" value="__website-username__"></td>
+	</tr>
+	<tr>
+		<td>Website Token:</td>
+		<td><textarea name="websitetoken" rows="4" cols="50">__server-token__</textarea></td>
+	</tr>
+	<tr>
+		<td>PHP-Mode Status:</td>
+		<td>__remote-status__</td>
+	</tr>
+	<tr>
+		<td>Server_GeoIP:</td>
+		<td><b>__mod_geoip_installed__</b></td>
+	</tr>
+	
+</table>	
+<hr>
+<br>
+__list_countries__
+
+<br>

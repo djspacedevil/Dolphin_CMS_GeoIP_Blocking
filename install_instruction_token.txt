@@ -1,0 +1,15 @@
+Hello,
+
+thx for buying this token.
+
+Please send me your Boonex Username, Web-URL and Paypal Transaction-ID to sven@sven-goessling.de
+You can see your Web-URL after installing the GEOIP-module in the module backend.
+
+After that, i will generate your new token and send it back to you.
+
+Add this in your token field and save it.
+
+Now you have unlimited access for your buying time periode.
+
+Best regards,
+Sven
